@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+For Physical AI & Humanoid Robotics book project, verify:
+- [ ] Technical accuracy and correctness: All content must be verified through reliable sources
+- [ ] Clear and simple explanations: Content must be accessible to beginner to intermediate developers
+- [ ] Practical, example-driven learning: Each concept should have practical examples or diagrams
+- [ ] Consistent structure: All chapters follow Introduction-Key Concepts-Examples-Summary format
+- [ ] AI-assisted but human-readable: Content remains clearly readable by humans
+- [ ] Source verification: All claims verified using reliable sources, no copied content
+- [ ] Book structure compliance: Content in Markdown format, follows Docusaurus conventions
+- [ ] Development workflow: Using Spec-Kit Plus and Claude Code as specified
 
 ## Project Structure
 

@@ -1,55 +1,42 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial version) → 1.0.0
+Modified principles: N/A (new principles created)
+Added sections: All sections (new constitution)
+Removed sections: N/A
+Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy and Correctness
+All content must be technically accurate and factually correct. Claims about robotics, AI, and physical systems must be verified through reliable sources before inclusion. No unverified technical claims allowed.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clear and Simple Explanations
+Content must use simple, concise language that is accessible to beginner to intermediate developers. Complex concepts should be broken down into digestible parts with step-by-step explanations.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Practical, Example-Driven Learning
+Every concept should be accompanied by practical examples, code snippets, or diagrams where relevant. Theory must be grounded in practice to enable hands-on learning.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Consistent Structure Across Chapters
+All chapters must follow the established structure: Introduction, Key Concepts, Examples (code/diagrams), and Summary. This ensures predictable navigation and learning experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### AI-Assisted but Human-Readable Writing
+While using AI assistance for content generation and refinement, all content must remain clearly readable and understandable by humans. AI-generated content must be reviewed and edited for clarity.
 
-### [PRINCIPLE_6_NAME]
+### Source Verification and Originality
+All technical claims must be verified using reliable sources (official documentation, research labs, reputable technical blogs). No copied content allowed; all text must be original.
 
+## Book Structure Requirements
+Content must be written in Markdown (.md/.mdx) format, organized using Docusaurus book layout conventions. Each chapter must focus on one clear topic and build upon previous chapters. Chapters should be focused and readable, avoiding overly long sections.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+Use Spec-Kit Plus for spec-driven writing approach. Use Claude Code for generating and refining content. Follow Docusaurus conventions for sidebar and navigation. Ensure compatibility with GitHub Pages deployment. Maintain consistent formatting across all files.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All content must comply with these constitutional principles. Changes to this constitution require explicit approval and documentation of the rationale. All chapters and content must be verified for compliance with these principles before merging. Content must be suitable for self-learning and reference purposes.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-19 | **Last Amended**: 2025-12-19

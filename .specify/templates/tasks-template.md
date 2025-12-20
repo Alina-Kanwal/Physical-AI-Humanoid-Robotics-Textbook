@@ -156,6 +156,7 @@ Examples of foundational tasks (adjust based on your project):
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
 - [ ] TXXX Run quickstart.md validation
+- [ ] TXXX Verify constitution compliance for Physical AI & Humanoid Robotics project
 
 ---
 
@@ -237,6 +238,16 @@ With multiple developers:
    - Developer B: User Story 2
    - Developer C: User Story 3
 3. Stories complete and integrate independently
+
+### Constitution Compliance Strategy
+
+For Physical AI & Humanoid Robotics book project:
+1. Verify technical accuracy and correctness at each phase
+2. Ensure content remains clear and accessible
+3. Include practical examples for each concept
+4. Maintain consistent chapter structure
+5. Check source verification and originality requirements
+6. Validate Docusaurus build and GitHub Pages deployment
 
 ---
 
