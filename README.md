@@ -42,15 +42,14 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-The site is automatically deployed to Vercel using the workflow in `.github/workflows/deploy.yml`. The Vercel configuration is defined in `vercel.json`.
+The site is automatically deployed to Vercel using the workflow in `.github/workflows/deploy.yml`. Vercel automatically detects and builds the Docusaurus project.
 
 To deploy manually, you can use the Vercel CLI:
 ```bash
 # Install Vercel CLI
 npm install -g vercel
 
-# Deploy to Vercel
-cd website
+# Deploy to Vercel from the project root
 vercel --prod
 ```
 
