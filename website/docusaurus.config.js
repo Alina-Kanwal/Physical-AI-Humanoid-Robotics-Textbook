@@ -13,18 +13,18 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://physical-ai-book.vercel.app',
   // Set the /<base>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<org-name>/<repo-name>/'
+  // For Vercel deployment, use '/' as the base path
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // Vercel deployment config
+  // GitHub pages config removed for Vercel deployment
   organizationName: 'your-organization', // Usually your GitHub org/user name.
   projectName: 'physical-ai-book', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

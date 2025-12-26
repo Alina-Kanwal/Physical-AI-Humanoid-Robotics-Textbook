@@ -42,7 +42,17 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-The site is automatically deployed to GitHub Pages using the workflow in `.github/workflows/deploy.yml`.
+The site is automatically deployed to Vercel using the workflow in `.github/workflows/deploy.yml`. The Vercel configuration is defined in `vercel.json`.
+
+To deploy manually, you can use the Vercel CLI:
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy to Vercel
+cd website
+vercel --prod
+```
 
 ## Contributing
 
