@@ -4,8 +4,8 @@
   <ShortName>Physical AI &amp; Humanoid Robotics</ShortName>
   <Description>Search Physical AI &amp; Humanoid Robotics</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://physical-ai-humanoid-robotics-textb-eosin.vercel.app/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://physical-ai-humanoid-robotics-textb-eosin.vercel.app/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://physical-ai-humanoid-robotics-textb-eosin.vercel.app/opensearch.xml" />
-  <moz:SearchForm>https://physical-ai-humanoid-robotics-textb-eosin.vercel.app/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://physical-ai-textbook-eta.vercel.app/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://physical-ai-textbook-eta.vercel.app/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://physical-ai-textbook-eta.vercel.app/opensearch.xml" />
+  <moz:SearchForm>https://physical-ai-textbook-eta.vercel.app/</moz:SearchForm>
 </OpenSearchDescription>
