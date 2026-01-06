@@ -1,0 +1,90 @@
+# Content Search API Contract
+
+## Overview
+API for searching and retrieving content from the Physical AI & Humanoid Robotics book.
+
+## Endpoints
+
+### GET /api/search
+Search across all book content
+
+**Parameters**:
+- `q` (string, required): Search query
+- `limit` (integer, optional): Maximum number of results (default: 10, max: 50)
+- `module` (string, optional): Filter by specific module
+
+**Response**:
+```json
+{
+  "results": [
+    {
+      "id": "string",
+      "title": "string",
+      "module": "string",
+      "chapter": "string",
+      "url": "string",
+      "snippet": "string",
+      "relevance": "number"
+    }
+  ],
+  "total": "integer",
+  "query": "string"
+}
+```
+
+### GET /api/chapters
+Retrieve list of all chapters
+
+**Response**:
+```json
+{
+  "chapters": [
+    {
+      "id": "string",
+      "title": "string",
+      "module": "string",
+      "url": "string",
+      "description": "string",
+      "difficulty": "string",
+      "estimatedTime": "integer"
+    }
+  ]
+}
+```
+
+### GET /api/modules
+Retrieve list of all modules
+
+**Response**:
+```json
+{
+  "modules": [
+    {
+      "id": "string",
+      "title": "string",
+      "url": "string",
+      "description": "string",
+      "chapterCount": "integer",
+      "estimatedTime": "integer"
+    }
+  ]
+}
+```
+
+## Error Responses
+
+All endpoints return standard error format:
+```json
+{
+  "error": {
+    "code": "string",
+    "message": "string",
+    "details": "object"
+  }
+}
+```
+
+## Error Codes
+- `SEARCH_QUERY_TOO_SHORT`: Search query must be at least 2 characters
+- `INVALID_MODULE`: Specified module does not exist
+- `RATE_LIMIT_EXCEEDED`: Too many requests

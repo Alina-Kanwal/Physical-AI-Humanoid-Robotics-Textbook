@@ -1,0 +1,51 @@
+{
+  "name": "physical-ai-book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "physical-ai",
+    "humanoid-robotics",
+    "ros2",
+    "gazebo",
+    "nvidia-isaac"
+  ],
+  "author": "Physical AI Book Project",
+  "license": "MIT",
+  "description": "A comprehensive book on Physical AI and Humanoid Robotics using ROS 2, Gazebo, Unity, and NVIDIA Isaac",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
