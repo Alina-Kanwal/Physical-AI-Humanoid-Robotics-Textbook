@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p docs/module-5-ai-brain-humanoid)"
+    ]
+  }
+}
