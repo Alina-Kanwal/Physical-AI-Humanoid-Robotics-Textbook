@@ -16,7 +16,7 @@ const config = {
   url: 'https://physical-ai-humanoid-robotics-textb-eosin.vercel.app/',
   // Set the /<base>/ pathname under which your site is served
   // For Vercel deployment, use '/' as the base path
-  baseUrl: '/',
+  baseUrl: '/website',
 
   // Vercel deployment config
   // GitHub pages config removed for Vercel deployment
